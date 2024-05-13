@@ -1,2 +1,2 @@
 # JavaI
-Exercícios e fundametos relacionados a java
+Exercícios e fundamentos relacionados a java

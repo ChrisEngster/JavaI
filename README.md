@@ -1,2 +1,2 @@
 # JavaI
- Parte 1 de java
+Exercícios e fundametos relacionados a java

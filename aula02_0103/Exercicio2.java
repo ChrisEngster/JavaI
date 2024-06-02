@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula02_0103;
+package JavaI.aula02_0103;
 
 /**
  *

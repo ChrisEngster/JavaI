@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula03_0803;
+package JavaI.aula03_0803;
 
 import java.util.Scanner;
 
@@ -51,12 +51,11 @@ private static void lendoUm() {
     }
 
     private static void lendoDois() {
-    Scanner scanner = new Scanner(System.in); 
+    Scanner scanner = new Scanner(System.in);   // para fazer a leitura de uma variavel
     
     ExemploScanner t = new ExemploScanner();
     System.out.print("Entre com o seu codigo: ");
-    t.codigo = Long.parseLong(scanner.nextLine());
-    // Usa o Scanner para string e depois converte para int
+    t.codigo = Long.parseLong(scanner.nextLine());       
     //Li o que foi digitado como string e transformei para Long
     
     System.out.print("Digite seu primeiro nome: ");

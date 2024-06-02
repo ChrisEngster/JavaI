@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula05_2203;
+package JavaI.aula05_2203;
 
 import java.util.Scanner;
 
@@ -48,20 +48,21 @@ public class Exercicio06 {
                 c = 0;
             }
             if (opcao == 2) {
-                if(l == 0){
-                    System.out.println("Nao existe cadastro!");
-                } else {
-                for (int i = 0; i < l ; i++) {
-                            // esse i é para percorrer as linhas
-                            System.out.println("Nome: " + agenda[i][0] + "\t");
-                            System.out.println("endereco: " + agenda[i][1] + "\t");
-                            System.out.println("cidade: " + agenda[i][2] + "\t");
-                            System.out.println("telefone: " + agenda[i][3] + "\t");
-                            System.out.println("email: " + agenda[i][4] + "\t");
+                for (l = 0; l < 10; l++) {
+                    for (c = 0; c < 5; c++) {
+                        if (agenda[l][c] != null) {  // o segundo for acaba lendo a linha da colunha [l]
+                            System.out.println("Nome: " + agenda[l][c++] + "\t");
+                            System.out.println("endereco: " + agenda[l][c++] + "\t");
+                            System.out.println("cidade: " + agenda[l][c++] + "\t");
+                            System.out.println("telefone: " + agenda[l][c++] + "\t");
+                            System.out.println("email: " + agenda[l][c++] + "\t");
                             System.out.println("-----------------------");
                         }
                     }
                 }
-        } while(opcao != 3);
+            }
+
+        } while (opcao != 3);
+
     }
 }

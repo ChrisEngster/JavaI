@@ -1,3 +1,5 @@
+package JavaI.Provas;
+
 
 import java.util.Scanner;
 

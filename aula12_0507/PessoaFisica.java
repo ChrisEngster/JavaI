@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package JavaI.aula10_2106;
+package JavaI.aula12_0507;
 
 import java.util.Scanner;
 
@@ -11,7 +11,8 @@ import java.util.Scanner;
  *
  * @author 22200545
  */
-public class PessoaFisica extends Pessoa { // puxa a pessoa
+
+public class PessoaFisica extends Pessoa implements Mamifero{ // puxa a pessoa
 
     public PessoaFisica(String nome) {  //chamou o construtor por isso a public pessoaFisica
         super(nome);                    //para gerar os getter e setter
@@ -61,6 +62,11 @@ public class PessoaFisica extends Pessoa { // puxa a pessoa
         pf.setCodPessoa(Integer.parseInt(scan.nextLine()));
         System.out.printf( "\n%s ,codigo %d ,idade: %d. \n" , pf.getNome(), pf.getIdade(), pf.getCodPessoa());
         
+    }
+
+    @Override
+    public int getQdePernas() {
+        return 2;
     }
 
 }

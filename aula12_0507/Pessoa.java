@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package JavaI.aula10_2106;
+package JavaI.aula12_0507;
 
 /**
  *
@@ -25,7 +25,7 @@ public abstract class Pessoa { // classe que nao pode ter instanciada nao pode s
     }
     
     
-    // criando metodo para pegar na classe filho (pessoaFisica) e modificar 
+    // criando metodo para pegar na classe filho (pessoaFisica) e modificar
     public abstract String getNome();
 
     public abstract void setCodPessoa(int codigo);

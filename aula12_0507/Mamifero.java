@@ -3,21 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package JavaI.aula10_2106;
+package JavaI.aula12_0507;
 
 /**
  *
  * @author 22200545
  */
-public class Ponto {
+//interface
+public interface Mamifero {
 
-    int x;
-    int y;
+    final int QTD_OLHOS = 2;
+    public int getQdePernas();
 
-    public Ponto(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-    
-    
 }
